@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ascentmarkets-Traderoom</title>
+<link rel="shortcut icon" type="image/jpg" href="../img/cropped-Ascentmarkets-1.png" />
+<link rel="stylesheet" href="https://widgets.forex-demo-site.com/latest/cfd-platform-top-bar.css" />
+</head>
+<body>
+<prf-widget-manager ng-app="prf" options="{
+          defaultLang: 'en',
+          brandId: 1
+        }">
+<prf-cfd-platform-top-bar theme="'dark'" home-url="'/index'" account-url="'/account-summary'" deposit-url="'/deposit'" sign-up-url="'/register'" forgot-password-url="'/forgot-password'" trading-account="prf.tradingAccount" customer="prf.customer" is-platform-page="true" disable-theme-switcher="false">
+<logo-element>
+<img src="../img/cropped-Ascentmarkets-1.png" alt="logo" width="60" />
+</logo-element>
+
+<trn-after-login-widget>
+
+</trn-after-login-widget>
+</prf-cfd-platform-top-bar>
+<prf-platform-loader-widget selected-platform="'CFD'" platform-options="{
+          CFD: {
+                pluginUrl: 'https://tc-platform.ascentmarkets.com/forex/11.7.3-1-g237d/11.7.3-1-g237d/platformLoader.js',
+                brandToken: '9f6ecf59-8379-e54d-0eb3-1a117442725c',
+                documentDomain: 'ascentmarkets.com',
+                theme: 'light'
+            },
+                BUNDLE: {
+                pluginUrl: 'https://tc-platform.ascentmarkets.com/bundle/11.6.7-1-gfdb4d/11.6.7-1-gfdb4d/platformLoader.js',
+                brandToken: '91a9c717-a427-43df-343d-c354271c0bbe',
+                documentDomain: 'ascentmarkets.com',
+                theme: 'light'
+            },
+MT4: {
+            pluginUrl: 'https://trading.quotecores.com/js/index.a240bf1a96eae4f1e5ca.js',
+            pluginOptions: {
+BRAND_MAIN_URL: 'https://ascentmarkets.com',
+  WT_ACCENT_COLOR: '#000',
+  WT_LOGO_URL: 'https://s3.eu-central-1.amazonaws.com/wt.quotecores.com/ascentmarkets_logo.png',
+  WT_LOADER_URL: 'https://s3.eu-central-1.amazonaws.com/wt.quotecores.com/loader.gif',
+  WT_LOADING_SCREEN_URL: 'https://s3.eu-central-1.amazonaws.com/wt.quotecores.com/loading_screen_circle.gif',
+  WT_LOADING_SCREEN_BACKGROUND_URL: 'https://s3.eu-central-1.amazonaws.com/wt.quotecores.com/login_bg.jpg',
+  SOCIAL_TRADING_ENABLED: false,
+  WITH_HEADER: false
+      }
+    }
+        }">
+</prf-platform-loader-widget>
+<prf-site-location-tracking-widget page-name="'traderoom'"></prf-site-location-tracking-widget>
+</prf-widget-manager>
+<script src="js/jquery.min.js" id="jquery-js"></script>
+<script src="js/angular.min.js" id="angular-js-js"></script>
+<script src="https://widgets.ascentmarkets.com/crm.widgets.config.js"></script>
+<script src="https://widgets.ascentmarkets.com/latest/prf.widgets.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 13 Sep 2021 16:03:20 at https://ascentmarkets.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://ascentmarkets.com -O1 "C:\ascentmarkets\ascentmarkets" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:03:38	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://ascentmarkets.com/robots.txt (from primary/primary)
+16:03:38	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/ (from primary/primary)
+16:07:45	Warning: 	Retry after error 409 (Conflict) at link https://ascentmarkets.com/xmlrpc.php?rsd (from https://ascentmarkets.com/)
+16:14:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/contact-us/ (from https://ascentmarkets.com/)
+16:14:00	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/wp-content/uploads/2021/07/second.jpg (from https://ascentmarkets.com/)
+16:16:29	Warning: 	Link https://ascentmarkets.com/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+16:16:33	Warning: 	Retry after error -4 (Incorrect length (400 Bytes, 2153 expected)) at link https://ascentmarkets.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.3.8 (from https://ascentmarkets.com/)
+16:16:33	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.eot (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:33	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:33	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.woff2 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:37	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:38	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:40	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-brands-400.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:42	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.eot (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:44	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:45	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.woff2 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:46	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:48	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:48	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-regular-400.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:51	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.eot (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:51	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:56	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.woff2 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:57	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:16:58	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:17:00	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/fontawesome/fa-solid-900.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/all.css?ver=1.0.0)
+16:17:03	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/eleganticons/ElegantIcons.eot (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/eleganticons.css?ver=1.0.0)
+16:17:06	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/eleganticons/ElegantIcons.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/eleganticons.css?ver=1.0.0)
+16:17:06	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/eleganticons/ElegantIcons.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/eleganticons.css?ver=1.0.0)
+16:17:08	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/eleganticons/ElegantIcons.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/eleganticons.css?ver=1.0.0)
+16:17:09	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/eleganticons/ElegantIcons.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/eleganticons.css?ver=1.0.0)
+16:17:11	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.eot (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:17:12	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:17:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:17:30	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:17:37	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:17:54	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/icofont/icofont.woff2 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/icofont.css?ver=1.0.0)
+16:18:04	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/icofont/icofont.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/icofont.css?ver=1.0.0)
+16:18:16	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.eot?v=1.9.32 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:20	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.eot? (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:31	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.woff2?v=1.9.32 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:33	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.woff?v=1.9.32 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:34	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.ttf?v=1.9.32 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:34	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/materialdesignicons/materialdesignicons-webfont.svg?v=1.9.32 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/materialdesignicons.css?ver=1.0.0)
+16:18:38	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.12.0 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0)
+16:18:40	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.12.0 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0)
+16:18:42	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.12.0 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0)
+16:18:45	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.12.0 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0)
+16:18:54	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.12.0 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0)
+16:19:00	Warning: 	Retry after error -4 (Connect Error) at link ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg (from https://ascentmarkets.com/wp-content/uploads/elementor/css/post-62.css?ver=1630245867)
+16:19:03	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/fonts/massive-crypto.eot?v (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:04	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/fonts/massive-crypto.woff?v (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:05	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/fonts/massive-crypto.ttf?v (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:10	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/fonts/massive-crypto.svg?v (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:12	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_both.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:12	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_asc.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_desc.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:19:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_asc_dark.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:20:49	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_desc_dark.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:20:58	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_both_dark.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:20:58	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/rss.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/style.css?ver=3.1.9)
+16:20:59	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_asc_disabled.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/jquery.dataTables.min.css?ver=1.10.16)
+16:21:00	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_desc_disabled.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/jquery.dataTables.min.css?ver=1.10.16)
+16:21:02	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:07	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot? (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:08	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2 (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:10	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:15	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg (from https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3)
+16:21:15	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/xmlrpc.php?rsd (from https://ascentmarkets.com/)
+16:21:17	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-71.css?ver=1630779441 (from https://ascentmarkets.com/trading-products/)
+16:21:19	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/71 (from https://ascentmarkets.com/trading-products/)
+16:21:21	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=71 (from https://ascentmarkets.com/trading-products/)
+16:21:21	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Ftrading-products%2F (from https://ascentmarkets.com/trading-products/)
+16:21:25	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Ftrading-products%2F&format=xml (from https://ascentmarkets.com/trading-products/)
+16:21:26	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/2021/07/coin-150x150.png (from https://ascentmarkets.com/trading-products/)
+16:21:29	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/2021/07/commodity-150x150.png (from https://ascentmarkets.com/trading-products/)
+16:21:31	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/2021/07/indicator-150x150.png (from https://ascentmarkets.com/trading-products/)
+16:22:32	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/2021/07/exchange-150x150.png (from https://ascentmarkets.com/trading-products/)
+16:22:36	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/2021/07/financial-profit-150x150.png (from https://ascentmarkets.com/trading-products/)
+16:22:38	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-83.css?ver=1630412754 (from https://ascentmarkets.com/cfds/)
+16:22:40	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/83 (from https://ascentmarkets.com/cfds/)
+16:22:51	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=83 (from https://ascentmarkets.com/cfds/)
+16:23:09	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fcfds%2F (from https://ascentmarkets.com/cfds/)
+16:23:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fcfds%2F&format=xml (from https://ascentmarkets.com/cfds/)
+16:23:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-46.css?ver=1630274854 (from https://ascentmarkets.com/stocks/)
+16:23:17	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/46 (from https://ascentmarkets.com/stocks/)
+16:23:18	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=46 (from https://ascentmarkets.com/stocks/)
+16:23:18	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fstocks%2F (from https://ascentmarkets.com/stocks/)
+16:23:23	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fstocks%2F&format=xml (from https://ascentmarkets.com/stocks/)
+16:23:23	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-50.css?ver=1630497824 (from https://ascentmarkets.com/commodities/)
+16:23:26	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/50 (from https://ascentmarkets.com/commodities/)
+16:23:26	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=50 (from https://ascentmarkets.com/commodities/)
+16:23:30	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fcommodities%2F (from https://ascentmarkets.com/commodities/)
+16:23:34	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fcommodities%2F&format=xml (from https://ascentmarkets.com/commodities/)
+16:23:38	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-48.css?ver=1631014260 (from https://ascentmarkets.com/forex/)
+16:23:41	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/48 (from https://ascentmarkets.com/forex/)
+16:23:48	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=48 (from https://ascentmarkets.com/forex/)
+16:24:42	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fforex%2F (from https://ascentmarkets.com/forex/)
+16:24:48	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Fforex%2F&format=xml (from https://ascentmarkets.com/forex/)
+16:24:52	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-52.css?ver=1631099243 (from https://ascentmarkets.com/indices/)
+16:24:54	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/wp/v2/pages/52 (from https://ascentmarkets.com/indices/)
+16:25:02	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/?p=52 (from https://ascentmarkets.com/indices/)
+16:25:09	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Findices%2F (from https://ascentmarkets.com/indices/)
+16:25:14	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Findices%2F&format=xml (from https://ascentmarkets.com/indices/)
+16:25:18	Warning: 	Retry after error -4 (Connect Error) at link https://ascentmarkets.com/wp-content/uploads/elementor/css/post-60.css?ver=1630411740 (from https://ascentmarkets.com/account-types/)
+16:25:18	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/?p=60 (from https://ascentmarkets.com/account-types/)
+16:25:21	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Faccount-types%2F (from https://ascentmarkets.com/account-types/)
+16:26:04	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=21
+16:26:04	Warning: 	File has moved from https://ascentmarkets.com/?p=21 to https://ascentmarkets.com/about-us/
+16:26:08	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/wp-json/wp/v2/pages/91 (from https://ascentmarkets.com/economic-calendar/)
+16:26:08	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=91
+16:26:08	Warning: 	File has moved from https://ascentmarkets.com/?p=91 to https://ascentmarkets.com/economic-calendar/
+16:26:08	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Feconomic-calendar%2F&format=xml (from https://ascentmarkets.com/economic-calendar/)
+16:26:16	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=94
+16:26:16	Warning: 	File has moved from https://ascentmarkets.com/?p=94 to https://ascentmarkets.com/daily-analysis-video/
+16:26:16	Warning: 	Retry after error -2 (Receive Time Out) at link https://ascentmarkets.com/2021/07/13/ (from https://ascentmarkets.com/daily-analysis-video/)
+16:26:16	Warning: 	Retry after error -2 (Receive Time Out) at link https://ascentmarkets.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg (from https://ascentmarkets.com/faqs/)
+16:26:16	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=19
+16:26:16	Warning: 	File has moved from https://ascentmarkets.com/?p=19 to https://ascentmarkets.com/faqs/
+16:26:16	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fascentmarkets.com%2Ffaqs%2F&format=xml (from https://ascentmarkets.com/faqs/)
+16:26:18	Warning: 	Retry after error -2 (Receive Time Out) at link https://ascentmarkets.com/terms-of-service/ (from https://ascentmarkets.com/faqs/)
+16:26:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.8.0 (from https://ascentmarkets.com/faqs/)
+16:26:26	Warning: 	Retry after error 409 (Conflict) at link https://ascentmarkets.com/contact-us/ (from https://ascentmarkets.com/)
+16:26:26	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=522
+16:26:26	Warning: 	File has moved from https://ascentmarkets.com/?p=522 to https://ascentmarkets.com/financial-news/
+16:26:26	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=23
+16:26:26	Warning: 	File has moved from https://ascentmarkets.com/?p=23 to https://ascentmarkets.com/video-courses/
+16:26:30	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=54
+16:26:30	Warning: 	File has moved from https://ascentmarkets.com/?p=54 to https://ascentmarkets.com/cryptocurrency/
+16:26:30	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=526
+16:26:30	Warning: 	File has moved from https://ascentmarkets.com/?p=526 to https://ascentmarkets.com/technical-analysis/
+16:26:30	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=11
+16:26:30	Warning: 	File has moved from https://ascentmarkets.com/?p=11 to https://ascentmarkets.com/legal/
+16:29:45	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=25
+16:29:45	Warning: 	File has moved from https://ascentmarkets.com/?p=25 to https://ascentmarkets.com/ebooks/
+16:29:45	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=29
+16:29:45	Warning: 	File has moved from https://ascentmarkets.com/?p=29 to https://ascentmarkets.com/glossary/
+16:29:46	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=27
+16:29:46	Warning: 	File has moved from https://ascentmarkets.com/?p=27 to https://ascentmarkets.com/webinar/
+16:30:04	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.ttf (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:30:04	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/flaticon/Flaticon.svg (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/essential-icon.css?ver=1.0.0)
+16:30:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/icofont/icofont.woff2 (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/icofont.css?ver=1.0.0)
+16:30:04	Warning: 	Retry after error -4 (No data (connection closed)) at link https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/fonts/icofont/icofont.woff (from https://ascentmarkets.com/wp-content/plugins/simple-floating-menu/assets/css/icofont.css?ver=1.0.0)
+16:30:18	Warning: 	Moved Permanently for ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg
+16:30:18	Warning: 	Redirected link is identical because of 'URL Hack' option: ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg and https://ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg
+16:30:18	Warning: 	Warning moved treated for ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg (real one is https://ascentmarkets.com/wp-content/uploads/2021/07/slide-two.jpg)
+16:30:18	Error: 	"Not Found" (404) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_asc_disabled.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/jquery.dataTables.min.css?ver=1.10.16)
+16:30:18	Error: 	"Not Found" (404) at link https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/img/sort_desc_disabled.png (from https://ascentmarkets.com/wp-content/plugins/massive-cryptocurrency-widgets/assets/public/css/jquery.dataTables.min.css?ver=1.10.16)
+16:30:20	Error: 	"Conflict" (409) after 2 retries at link https://ascentmarkets.com/xmlrpc.php?rsd (from https://ascentmarkets.com/)
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=71
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=71 to https://ascentmarkets.com/trading-products/
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=83
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=83 to https://ascentmarkets.com/cfds/
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=46
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=46 to https://ascentmarkets.com/stocks/
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=50
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=50 to https://ascentmarkets.com/commodities/
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=48
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=48 to https://ascentmarkets.com/forex/
+16:30:20	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=52
+16:30:20	Warning: 	File has moved from https://ascentmarkets.com/?p=52 to https://ascentmarkets.com/indices/
+16:30:27	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=60
+16:30:27	Warning: 	File has moved from https://ascentmarkets.com/?p=60 to https://ascentmarkets.com/account-types/
+16:30:28	Error: 	"Not Found" (404) at link https://ascentmarkets.com/2021/07/13/ (from https://ascentmarkets.com/daily-analysis-video/)
+16:30:40	Error: 	"Conflict" (409) after 2 retries at link https://ascentmarkets.com/contact-us/ (from https://ascentmarkets.com/)
+16:30:40	Error: 	"Not Found" (404) at link https://ascentmarkets.com/wp-content/uploads/img/bg.jpg (from https://ascentmarkets.com/wp-content/uploads/essential-addons-elementor/734e5f942.min.css?ver=1631545547)
+16:30:41	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=32
+16:30:41	Warning: 	File has moved from https://ascentmarkets.com/?p=32 to https://ascentmarkets.com/risk-disclosure/
+16:30:41	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=44
+16:30:41	Warning: 	File has moved from https://ascentmarkets.com/?p=44 to https://ascentmarkets.com/order-execution-policy/
+16:30:41	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=42
+16:30:41	Warning: 	File has moved from https://ascentmarkets.com/?p=42 to https://ascentmarkets.com/complaint-handling/
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=38
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=38 to https://ascentmarkets.com/conflict-of-interest/
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=40
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=40 to https://ascentmarkets.com/summary-of-important-tc/
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=2616
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=2616 to https://ascentmarkets.com/kyc-policy/
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=34
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=34 to https://ascentmarkets.com/aml-policy/
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=3
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=3 to https://ascentmarkets.com/privacy-policy/
+16:30:42	Warning: 	Retry after error 409 (Conflict) at link https://ascentmarkets.com/xmlrpc.php (from https://ascentmarkets.com/privacy-policy/)
+16:30:42	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=36
+16:30:42	Warning: 	File has moved from https://ascentmarkets.com/?p=36 to https://ascentmarkets.com/bonus-terms-and-conditions/
+16:30:43	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=1095
+16:30:43	Warning: 	File has moved from https://ascentmarkets.com/?p=1095 to https://ascentmarkets.com/risk-free-trade/
+16:30:48	Warning: 	Moved Permanently for https://ascentmarkets.com/?p=13
+16:30:48	Warning: 	File has moved from https://ascentmarkets.com/?p=13 to https://ascentmarkets.com/terms-of-service/
+16:30:48	Warning: 	Retry after error 409 (Conflict) at link https://ascentmarkets.com/xmlrpc.php (from https://ascentmarkets.com/privacy-policy/)
+16:30:49	Error: 	"Conflict" (409) after 2 retries at link https://ascentmarkets.com/xmlrpc.php (from https://ascentmarkets.com/privacy-policy/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 27 minutes 28 seconds : 573 links scanned, 415 files written (45922399 bytes overall) [16709503 bytes received at 10139 bytes/sec], 40398011 bytes transferred using HTTP compression in 312 files, ratio 24%, 2.4 requests per connection
+(8 errors, 183 warnings, 0 messages)

@@ -1,0 +1,4 @@
+$(document).ready(function(){var clickToggle=document.querySelector('#pencet');clickToggle.addEventListener('click',function(){clickToggle.classList.toggle('Diam');});var toggleThisBtn=document.querySelector("#toggle");toggleThisBtn.addEventListener('click',function(){var menuMain=document.querySelector("#mobile-menu");menuMain.classList.toggle("inactive");});});function productsNav(){document.getElementById("products").classList.toggle("show");}
+function newsNav(){document.getElementById("news").classList.toggle("show");}
+function supportNav(){document.getElementById("support").classList.toggle("show");}
+window.onclick=function(event){if(!event.target.matches('.dropDownNav')){var dropdowns=document.getElementsByClassName("dropdown-content");var i;for(i=0;i<dropdowns.length;i++){var openDropdown=dropdowns[i];if(openDropdown.classList.contains('show')){openDropdown.classList.remove('show');}}}}

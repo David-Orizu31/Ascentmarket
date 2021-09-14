@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.google.com	TRUE	/	FALSE	1999999999	NID	223=O61L416utf1maTOdCXrRN59QbLm__c0RghfCFRTYNkumIZYv9gEWcE2rF7jVgM6SN0Tsef_51zm4Qu62Ofurs0j3O05NjUHyD4P12zw-qHZ9UkLeKrh3pA2nWszddO_kzWry12ZbahqLPynywb8I5SaQzVbg8qwQQ0q5g49Bq3A
+ascentmarkets.com	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP%20Cookie%20check
+

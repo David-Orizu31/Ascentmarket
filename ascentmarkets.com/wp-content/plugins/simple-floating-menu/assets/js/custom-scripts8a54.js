@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".sfm-floating-menu a").on('click',function(event){var hash=this.hash;if(hash!==""&&$(hash).length>0){event.preventDefault();$('html, body').animate({scrollTop:$(hash).offset().top},800,function(){window.location.hash=hash;});}});});

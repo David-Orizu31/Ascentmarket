@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ascentmarkets - Account</title>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="shortcut icon" type="image/jpg" href="../wp-content/uploads/2021/07/cropped-Ascentmarkets-1.png" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/prf.widgets.css">
+<link rel="stylesheet" href="../user/styles.css" />
+</head>
+<body>
+<prf-widget-manager options="{defaultLang:'en', 'brandId': 1}" ng-app="prf">
+<header class="header">
+<div class="header-container">
+<div class="row">
+<div class="col-md-1">
+<div class="logo">
+<a href="#">
+<img src="../wp-content/uploads/2021/07/cropped-Ascentmarkets-1.png" alt="logo" />
+</a>
+</div>
+</div>
+<div class="col-md-8 main-menu-container">
+<ul id="main-menu" class="main-menu" ng-if="prf.customer">
+<li class="menu-item menu-account-summary"><a href="account-summary">Account</a></li>
+<li class="menu-item menu-personal-info"><a href="personal">Personal</a></li>
+<li class="active menu-item menu-deposit"><a href="deposit" aria-current="page">Deposit</a></li>
+<li class="menu-item menu-withdrawal"><a href="withdrawal">Withdrawal</a></li>
+<li class="menu-item menu-transactions"><a href="transactions">Transactions</a></li>
+<li class="menu-item menu-documents"><a href="documents">Documents</a></li>
+<a href="traderoom"> <li class="menu-item traderoom">Traderoom </li> </a>
+</ul>
+</div>
+<div class="col-md-3">
+<div class=" is-customer" ng-class="{'is-customer' : prf.customer}">
+<div class="login-btn-container ng-hide" ng-show="!prf.customer">
+<div class="reg-btn">
+<button class="login">
+<a href="../user/login.html">Sign in</a>
+</button>
+<button class="register">
+<a href="../user/register.html">Register</a>
+</button>
+</div>
+</div>
+<div class="login-btn-container">
+<div ng-show="prf.customer" class=" logout">
+<a class="prfw-btn prfw-btn-primary is-uppercase is-fullwidth" href="../user/login.html" onclick="prf.loginWidget.logout()">Logout
+</a>
+</div>
+<div class="deposit-btn" ng-if="prf.customer">
+<a href="deposit">Deposit</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="customerNameContainer" ng-cloak ng-if="prf.customer">
+<div class="row">
+<div class="col">
+<div class="customerName">
+<a href="account-summary">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+</svg> My Account</a> | Welcome {{prf.customer.firstName}}
+{{prf.customer.lastName}}!
+</div>
+</div>
+<div class="col-md-2">
+<div class="account-switcher">
+<prf-account-switcher class="prfw-common" ng-if="prf.tradingAccount"></prf-account-switcher>
+</div>
+</div>
+<div class="col">
+<div class="prf-balance">
+Balance: <prf-account-balance-widget ng-if="prf.tradingAccount" field="balance"></prf-account-balance-widget>
+Equity: <prf-account-balance-widget ng-if="prf.tradingAccount" field="equity"></prf-account-balance-widget>
+Open PNL: <prf-account-balance-widget ng-if="prf.tradingAccount" field="openPnl"></prf-account-balance-widget>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-header">
+<div class="row">
+<div class="col toggle-pos">
+<div id="toggle">
+<div id="pencet">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="logo">
+<img src="../wp-content/uploads/2021/07/cropped-Ascentmarkets-1.png" alt="logo" />
+</div>
+</div>
+</div>
+<div id="mobile-menu" class="inactive">
+<div class="row">
+<div class=" is-customer" ng-class="{'is-customer' : prf.customer}">
+<div class="login-btn-container ng-hide" ng-show="!prf.customer">
+<div class="reg-btn">
+<button class="register">
+<a href="../user/register.html">Register</a>
+</button>
+<button class="login">
+<a href="../user/login.html">Log In</a>
+</button>
+</div>
+</div>
+<div class="login-btn-container">
+<div ng-show="prf.customer" class=" logout">
+<a class="prfw-btn prfw-btn-primary is-uppercase is-fullwidth" href="../user/login.html" onclick="prf.loginWidget.logout()">Logout
+</a>
+</div>
+<div class="deposit-btn" ng-if="prf.customer">
+<a href="deposit">Deposit</a>
+</div>
+</div>
+</div>
+</div>
+<div class="customerNameContainer" ng-cloak ng-if="prf.customer">
+<div class="row">
+<div class=" col-sm-12">
+<div class="customerName">
+<a href="account-summary">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+<path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+</svg> My Account</a> | Welcome {{prf.customer.firstName}}
+{{prf.customer.lastName}}!
+</div>
+</div>
+<div class=" col-sm-12">
+<div class="prf-balance">
+Balance: <prf-account-balance-widget ng-if="prf.tradingAccount" field="balance"></prf-account-balance-widget>
+Equity: <prf-account-balance-widget ng-if="prf.tradingAccount" field="equity"></prf-account-balance-widget>
+Open PNL: <prf-account-balance-widget ng-if="prf.tradingAccount" field="openPnl"></prf-account-balance-widget>
+</div>
+<div class="account-switcher">
+<prf-account-switcher class="prfw-common" ng-if="prf.tradingAccount"></prf-account-switcher>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="customerMenu-mobile customerSidebar">
+<ul id="menu-customer-sidebar" class="menu">
+<li class="menu-item menu-account-summary"><a href="account-summary">Account</a></li>
+<li class="menu-item menu-personal-info"><a href="personal">Personal </a></li>
+<li class="active menu-item menu-deposit"><a href="deposit" aria-current="page">Deposit</a></li>
+<li class="menu-item menu-withdrawal"><a href="withdrawal">Withdrawal</a></li>
+<li class="menu-item menu-transactions"><a href="transactions">Transactions</a></li>
+<li class="menu-item menu-documents"><a href="documents">Documents</a></li>
+<a href="traderoom"> <li class="menu-item traderoom">Traderoom </li> </a>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="main">
+<prf-site-location-tracking-widget page-name="'account-summary'"></prf-site-location-tracking-widget>
+<div style="display: none;"><prf-login-widget></prf-login-widget></div>
+<div class="main-container">
+<h4 class="not-logged-in" ng-if="!prf.customer">
+Please login to see Account summary page!
+</h4>
+<div class="row login-crm">
+<h6 class="createNewAcc"><a href="../user/register.html">+ Create new account</a></h6>
+<prf-trading-accounts-summary-widget type="forex" ng-if="prf.tradingAccount"></prf-trading-accounts-summary-widget>
+</div>
+</div>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<div class="row footer-menu">
+<div class="col company">
+<h5> TRADING PRODUCTS </h5>
+<ul>
+    <li>
+        <a href="../stocks/index.html">
+        <span>Stocks</span>
+        </a>
+        </li>
+        <li>
+        <a href="../forex/index.html">
+        <span>FX Trading</span>
+        </a>
+        </li>
+        <li>
+        <a href="../commodities/index.html">
+        <span>Commodities</span>
+        </a>
+        </li>
+        <li>
+        <a href="../indices/index.html">
+        <span>Indices</span>
+        </a>
+        </li>
+        <li>
+         <a href="../cryptocurrency/index.html">
+        <span>Cryptocurrencies Trading</span>
+        </a>
+        </li>
+        </ul>
+        </div>
+        <div class="col company">
+        <h5> TECHNICAL ANALYSIS </h5>
+        <ul>
+        <li>
+        <a href="../economic-calendar/index.html">
+        <span>Economic Calendar</span>
+        </a>
+        </li>
+        <li>
+        <a href="../financial-news/index.html">
+        <span>Financial News</span>
+        </a>
+        </li>
+        <li>
+        <a href="../daily-analysis-video/index.html">
+        <span>Daily Analysis Video</span>
+        </a>
+        </li>
+        <li>
+        <a href="../technical-analysis/index.html">
+        <span>Technical Analysis</span>
+        </a>
+        </li>
+        </ul>
+        </div>
+        <div class="col company">
+        <h5> SUPPORT </h5>
+        <ul>
+        <li>
+        <a href="../about-us/index.html">
+        <span>About Us</span>
+        </a>
+        </li>
+        <li>
+        <a href="../contact-us/index.html">
+        <span>Contact Us</span>
+        </a>
+        </li>
+        <li>
+        <a href="../faqs/index.html">
+        <span>FAQs</span>
+        </a>
+        </li>
+        <li>
+        <a href="../legal/index.html">
+        <span>Legal</span>
+        </a>
+        </li>
+        </ul>
+        </div>
+        <div class="col company">
+        <h5> EDUCATION </h5>
+        <ul>
+        <li>
+        <a href="../video-courses/index.html">
+        <span>Video Courses</span>
+        </a>
+        </li>
+        <li>
+        <a href="../ebooks/index.html">
+        <span>E-books</span>
+        </a>
+        </li>
+        <li>
+        <a href="../glossary/index.html">
+        <span>Glossary</span>
+        </a>
+        </li>
+        <li>
+        <a href="../webinar/index.html">
+        <span>Webinar</span>
+        </a>
+        </li>
+</ul>
+</div>
+</div>
+<div class="row risk-w">
+<div class="col">
+<p>
+The Ascentmarkets Brand is authorised and regulated across a variety of jurisdictions:
+</p>
+<p>
+<span>StoneX Financial Ltd</span> is the holding company of <span>StoneX Group inc. Ascentmarket </span>is operated by StoneX Financial Ltd, a United Kingdom investment firm, authorised and regulated by the Financial Conduct Authority (FCA) of United Kingdom Under the registration company number <b>05616586.</b> StoneX registered company address: Moor House First Floor, 120 London Wall, London, EC2Y 5ET United Kingdom. SPINELBRIDGE SERVICES LTD (HE 403254), the EU billing agent of StoneX Financial Ltd, with a registered address Andrea Kariolou 38, Agios Athanasios, Ground Floor, 4102 Limassol, Cyprus.
+</p>
+<p>
+StoneX Financial (HK) Limited (CE No.: BCQ152) is regulated by the Hong Kong Securities and Futures Commission for Dealing in Futures Contracts. ’StoneX’ is the trade name used by StoneX Group Inc. and all its associated entities and subsidiaries.
+</p>
+</div>
+<div class="col">
+<p>
+AscentMarkets is a brand owned by StoneX Financial Ltd, a United Kingdom Investment Firm, authorized and regulated by the FCA under<span>license number 05616586</span>. Australian Financial Service License and is regulated by the Australian Securities and Investments Commission (AFSL: 237755).
+</p>
+<hr>
+<p>
+Phone: +357 22 062420 <br>
+Email: <a href="#"> <span class="__cf_email__" data-cfemail="d3a0a6a3a3bca1a793b2a0b0b6bda7beb2a1b8b6a7a0fdb0bcbe">support@coinneptune.com</span> </a>
+</p>
+</div>
+</div>
+<div class="row copyright">
+<p>
+© 2021 All rights reserved
+</p>
+</div>
+</div>
+</footer>
+</prf-widget-manager>
+<script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/jquery.min.js" id="jquery-js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/angular.min.js" id="angular-js-js"></script>
+<script src="js/crm.widgets.config.js"></script>
+<script src="js/prf.widgets.js"></script>
+<script src="../user/script.js"></script>
+</body>
+</html>
